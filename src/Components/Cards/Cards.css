@@ -1,0 +1,40 @@
+  .cards-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .card p {
+    padding: 0 15px 15px;
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
